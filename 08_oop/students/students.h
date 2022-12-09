@@ -113,7 +113,7 @@ public:
   }
 
 public:
-  /// Append  object to students array
+  /// Append `Student` object to students array
   StudentList &append(Student &stud) {
     _size++;
     auto tmp = new Student[_size];
